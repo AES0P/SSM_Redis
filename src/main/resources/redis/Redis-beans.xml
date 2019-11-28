@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- redis beans-->
+    <context:component-scan base-package="com.hzero.demo.ssmwithredis.redis"/>
+
+    <bean name="ObjectMapper" class="com.fasterxml.jackson.databind.ObjectMapper"/>
+
+    <!--   导入 redis jedisConnectionFactory bean 以创建Template-->
+    <import resource="classpath:/redis/config/Config-JedisConnectionFactory.xml"/>
+
+    <!--   导入 redis listener bean 以实现订阅功能 -->
+    <import resource="classpath:/redis/Redis-listener.xml"/>
+
+    <!-- key序列化 beans-->
+
+    <!-- StringRedisSerializer -->
+    <bean id="stringRedisSerializer"
+          class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+
+    <!-- JdkSerializationRedisSerializer -->
+    <bean id="jdkSerializationRedisSerializer"
+          class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
+
+    <!-- Template beans-->
+
+    <!-- stringRedisTemplate -->
+    <bean id="stringRedisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate"
+          p:connectionFactory-ref="jedisConnectionFactory"/>
+
+    <!-- redisTemplate -->
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+        <property name="connectionFactory" ref="jedisConnectionFactory"/>
+        <!--开启事务支持-->
+        <property name="enableTransactionSupport" value="true"/>
+        <!--        &lt;!&ndash; 序列化策略 推荐使用StringRedisSerializer &ndash;&gt;
+        如果不进行序列化，虽然java代码查出来没啥问题，但是其他地方如redis client里通过keys *查出来是乱码哦
+        如果你的数据需要被第三方工具解析，那么数据应该使用StringRedisSerializer而不是JdkSerializationRedisSerializer。-->
+        <property name="keySerializer" ref="stringRedisSerializer"/>
+        <property name="valueSerializer"
+                  ref="jdkSerializationRedisSerializer"/><!--配置了JdkSerializationRedisSerializer来做一些对象的存储-->
+        <property name="hashKeySerializer" ref="stringRedisSerializer"/>
+        <property name="hashValueSerializer" ref="stringRedisSerializer"/>
+        <property name="defaultSerializer" ref="stringRedisSerializer"/>
+    </bean>
+
+
+</beans>
