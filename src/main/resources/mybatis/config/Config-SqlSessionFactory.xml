@@ -6,10 +6,13 @@
 <configuration>
     <!--设置 -->
     <settings>
+        <!-- 开启二级缓存，这个需要开启 -->
         <!--缓存配置的全局开关：如果这里设置成false，那么即便在映射器中配置开启也无济于事 -->
         <setting name="cacheEnabled" value="true"/>
-        <!--延时加载的全局开关 -->
+        <!-- 查询时，关闭关联对象即时加载以提高性能 -->
         <setting name="lazyLoadingEnabled" value="false"/>
+        <!-- 是否开启延迟加载 -->
+        <setting name="aggressiveLazyLoading" value="false"/>
         <!-- 是否允许单一语句返回多结果集 -->
         <setting name="multipleResultSetsEnabled" value="false"/>
         <!-- 使用列标签代替列名，需要兼容驱动 -->

@@ -6,6 +6,9 @@ import org.mybatis.spring.annotation.MapperScan;
 
 import java.util.List;
 
+/**
+ * 这里实现通过mybatis能进行的操作
+ */
 @MapperScan(value = "userMapper")
 public interface UserMapper {
 

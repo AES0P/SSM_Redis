@@ -8,7 +8,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
-import java.io.Serializable;
+import java.io.*;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -679,10 +679,60 @@ public class RedisUtils {
         return redisTemplate.type(key);
     }
 
+    /**
+     * 向指定channel发送订阅消息
+     *
+     * @param channel 频道
+     * @param message 消息
+     */
     public void sendMessage(String channel, Serializable message) {
         redisTemplate.convertAndSend(channel, message);
     }
 
+
+    /**
+     * 序列化
+     *
+     * @param obj 待序列化对象
+     * @return 序列化后的内容
+     */
+    public byte[] toByteArray(Object obj) {
+        byte[] bytes = null;
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        try {
+            ObjectOutputStream oos = new ObjectOutputStream(bos);
+            oos.writeObject(obj);
+            oos.flush();
+            bytes = bos.toByteArray();
+            oos.close();
+            bos.close();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        System.out.println("序列化");
+        return bytes;
+    }
+
+    /**
+     * 反序列化
+     *
+     * @param bytes 待反序列化对象
+     * @return 反序列化object
+     */
+    public Object toObject(byte[] bytes) {
+        Object obj = null;
+        try {
+            ByteArrayInputStream bis = new ByteArrayInputStream(bytes);
+            ObjectInputStream ois = new ObjectInputStream(bis);
+            obj = ois.readObject();
+            ois.close();
+            bis.close();
+        } catch (IOException | ClassNotFoundException ex) {
+            ex.printStackTrace();
+        }
+        System.out.println("反序列化");
+        return obj;
+    }
 
 }
 

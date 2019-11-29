@@ -1,7 +1,9 @@
 package com.hzero.demo.ssmwithredis.springmvc.pojo;
 
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
 
     private int id;
 

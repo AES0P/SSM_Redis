@@ -19,7 +19,7 @@ public class ConnectionCheck {
     private RedisTemplate redisTemplate;
 
     //    cron 是一种周期的表达式，六位从右至左分别对应的是年、月、日、时、分、秒，数字配合各种通配符可以表达种类丰富的定时执行周期。
-    @Scheduled(cron = "0/10 * * * * *")// 每 10 S执行一次.在XML中配置后就不需要注解了，但是需要开启任务注解<task:annotation-driven />
+    @Scheduled(cron = "0/30 * * * * *")// 每 30 S执行一次.在XML中配置后就不需要注解了，但是需要开启任务注解<task:annotation-driven />
     public void task() {
         try {
             checkConnection();

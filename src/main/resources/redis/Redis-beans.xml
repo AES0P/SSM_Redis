@@ -6,7 +6,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
-        https://www.springframework.org/schema/context/spring-context.xsd">
+        https://www.springframework.org/schema/context/spring-context.xsd ">
 
     <!-- redis beans-->
     <context:component-scan base-package="com.hzero.demo.ssmwithredis.redis"/>
@@ -17,7 +17,7 @@
     <import resource="classpath:/redis/config/Config-JedisConnectionFactory.xml"/>
 
     <!--   导入 redis listener bean 以实现订阅功能 -->
-    <import resource="classpath:/redis/Redis-listener.xml"/>
+    <import resource="classpath:/redis/config/Config-Listener.xml"/>
 
     <!-- key序列化 beans-->
 
@@ -50,6 +50,5 @@
         <property name="hashValueSerializer" ref="stringRedisSerializer"/>
         <property name="defaultSerializer" ref="stringRedisSerializer"/>
     </bean>
-
 
 </beans>

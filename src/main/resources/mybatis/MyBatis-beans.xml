@@ -10,7 +10,7 @@
        https://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- 开启自动扫描 -->
-    <context:component-scan base-package="com.hzero.demo.ssmwithredis.mybatis.mapper"/>
+    <context:component-scan base-package="com.hzero.demo.ssmwithredis.mybatis"/>
 
     <!-- ...创建SqlSessionFactory，同时指定数据源，这是为后面的mapper或者SqlSessionTemplate服务的-->
 
