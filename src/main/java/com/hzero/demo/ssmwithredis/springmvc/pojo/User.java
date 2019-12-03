@@ -7,42 +7,62 @@ public class User implements Serializable {
 
     private int id;
 
-    private String userName;
+    private String name;
 
     private String password;
 
-    private String roleName;
+    private int sexy;
 
-    public int getId() {
-        return id;
-    }
+    private String role;
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public String getRoleName() {
-        return roleName;
-    }
+    private String comments;
 
     public void setId(int id) {
         this.id = id;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setPassword(String password) {
         this.password = password;
     }
 
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
+    public void setSexy(int sexy) {
+        this.sexy = sexy;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public int getSexy() {
+        return sexy;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public String getComments() {
+        return comments;
     }
 }
 

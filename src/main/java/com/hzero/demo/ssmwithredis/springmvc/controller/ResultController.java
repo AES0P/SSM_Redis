@@ -4,7 +4,6 @@ import com.hzero.demo.ssmwithredis.springmvc.pojo.User;
 import com.hzero.demo.ssmwithredis.springmvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -15,8 +14,8 @@ import javax.annotation.Resource;
  * 到了控制器，请求会卸下其负载（用户提交的请求）等待控制器处理完这些信息
  */
 @Controller
-@RequestMapping("/login")
-public class LoginController {
+@RequestMapping("/result")
+public class ResultController {
 
     @Autowired
     private User user;
@@ -24,34 +23,14 @@ public class LoginController {
     @Resource(name = "userService")
     private UserService userService;
 
-    @RequestMapping("/loginCheck")
+
+    @RequestMapping("/addUser")
     @ResponseBody
-    public String loginCheck(String username, String password) {
+    public String addUser(String username, String password) {
 
-//        System.out.println("传入：" + username + " " + password);
-
-        user = userService.findUserByName(username);
-        if (user != null) {
-
-            if (user.getPassword().equals(password)) {
-                return "OK";
-            } else {
-                return "Check the password you input.";
-            }
-
-        } else {
-            return "Check the account you input.";
-        }
-
+        return "ERROR";
     }
 
-    @RequestMapping(value = "/result")//跳转到result界面
-    public String goResult(ModelMap modelMap) {
-
-        modelMap.addAttribute("user", user);
-
-        return "result";
-    }
 
 
 }

@@ -12,8 +12,8 @@ import java.util.List;
 @MapperScan(value = "userMapper")
 public interface UserMapper {
 
-    @Insert("insert into ssm_user( user_name, password, role_name)" +
-            "values( #{user.userName}, #{user.password}, #{user.roleName})")
+    @Insert("insert into ssm_user( name, password, sexy, role, comments)" +
+            "values( #{user.name}, #{user.password}, #{user.sexy} , #{user.role} , #{user.comments})")
     @Options(keyProperty = "user.id", useGeneratedKeys = true)
     int insertUser(@Param("user") User user);
 
@@ -21,14 +21,14 @@ public interface UserMapper {
     int deleteUserById(@Param("id") int id);
 
     @Update("update ssm_user set " +
-            "user_name=#{user.userName}, password=#{user.password}, role_name=#{user.roleName} " +
+            "name=#{user.name}, password=#{user.password}, sexy=#{user.sexy} , role=#{user.role}, comments=#{user.comments}" +
             "where id=#{user.id}")
     int updateUser(@Param("user") User user);
 
     @Select("SELECT * FROM ssm_user WHERE id = #{id}")
     User findUserById(@Param("id") int id);
 
-    @Select("SELECT * FROM ssm_user WHERE user_name = #{name}")
+    @Select("SELECT * FROM ssm_user WHERE name = #{name}")
     User findUserByName(@Param("name") String name);
 
     @Select("select * from ssm_user")

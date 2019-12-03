@@ -3,10 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context.xsd">
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--此文件负责整个mvc中的配置-->
 
@@ -21,10 +24,58 @@
     <!--    DispatcherServlet 将会使用视图解析器（view resolver）来将逻辑视图名匹配为一个特定的视图实现，
     它可能是也可能不是 JSP-->
     <!-- 这里配置了一个 Spring MVC 内置的一个视图解析器，该解析器是遵循着一种约定：会在视图名上添加前缀和后缀，进而确定一个 Web 应用中视图资源的物理路径的。-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+    <bean id="defaultViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           p:viewClass="org.springframework.web.servlet.view.JstlView"
           p:prefix="/WEB-INF/views/"
           p:suffix=".jsp"/>
+
+    <!-- 静态资源访问配置： 访问 WEB-INF 目录下的静态资源 begin -->
+
+    <!-- 使用了default-servlet-handler或者mvc:resources,要开启注解驱动，否则它们不会生效 -->
+    <!-- annotation-driven会自动注册RequestMappingHandlerMapping和RequestMappingHandlerAdapter这两个bean-->
+    <!--    default-servlet-handler或者mvc:resources二选一启动即可-->
+    <mvc:annotation-driven/>
+
+    <!--  配置 mvc:default-servlet-handler 是为了能够访问 webapp 根目录 下的静态资源，
+          它将在SpringMVC上下文中定义一个DefaultServletHttpRequestHandler，这个Handler的作用是去Servlet容器查找默认的Servlet来响应静态文件，
+          而这会导致MVC中配置文件的处理映射器和处理适配器失效，从而Controller失效。
+          handler是当没有其他mapping可以处理请求时才会执行该handler匹配的mapping，从而去查找静态内容。在引用时使用：
+        src = "static/img/timg.jpg"等类似的格式，参见本项目index.jsp里的背景图引用方式 -->
+    <mvc:default-servlet-handler/>
+
+    <!--配置 mvc:resources 是为了能够访问 WEB-INF 目录下的静态资源，在引用时使用：
+        src="statics/js/result.js"等类似的格式,参见本项目result.jsp引用js文件的方式
+        需要注意:如果webapp根目录下的statics和web-inf下的资源文件夹完全重名，只会访问web-inf下的资源-->
+    <mvc:resources location="/WEB-INF/statics/" mapping="/statics/**"/>
+
+    <!-- 静态资源访问配置： 访问 WEB-INF 目录下的静态资源  end -->
+
+
+    <!--    &lt;!&ndash; Start: 配置json消息转换器 & 参数解析&ndash;&gt;-->
+    <!--    <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper">-->
+    <!--        <property name="dateFormat">-->
+    <!--            <bean class="java.text.SimpleDateFormat">-->
+    <!--                <constructor-arg index="0" type="java.lang.String" value="yyyy-MM-dd HH:mm:ss"/>-->
+    <!--            </bean>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+    <!--    -->
+    <!--    <mvc:annotation-driven>-->
+    <!--        -->
+    <!--        <mvc:message-converters register-defaults="true">-->
+    <!--            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">-->
+    <!--                <property name="supportedMediaTypes">-->
+    <!--                    <list>-->
+    <!--                        <value>application/json; charset=UTF-8</value>-->
+    <!--                    </list>-->
+    <!--                </property>-->
+    <!--                <property name="prettyPrint" value="true"/>-->
+    <!--                <property name="objectMapper" ref="objectMapper"/>-->
+    <!--            </bean>-->
+    <!--        </mvc:message-converters>-->
+    <!--        -->
+    <!--    </mvc:annotation-driven>-->
+    <!--    &lt;!&ndash; End: 配置json消息转换器 & 参数解析 &ndash;&gt;-->
 
 
 </beans>

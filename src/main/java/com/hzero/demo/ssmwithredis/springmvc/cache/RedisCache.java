@@ -125,13 +125,11 @@ public class RedisCache implements Cache {
 
     @Override
     public ValueWrapper putIfAbsent(Object arg0, Object arg1) {
-        // TODO Auto-generated method stub
         return null;
     }
 
     @Override
     public <T> T get(Object arg0, Class<T> arg1) {
-        // TODO Auto-generated method stub
         return null;
     }
 
