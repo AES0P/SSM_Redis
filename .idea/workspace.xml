@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSMWithRedis:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73b2537b-0d3b-4b41-b767-cc8e19ada644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SSMWithRedis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/controller/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/controller/ResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/result.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring app context" />
+        <option value="Jsp File" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\hand_h0_excise\H0\project\backend\5.SSM\SSM\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\hand_h0_excise\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tx7RSQq7jDI4fCK72QXWRcDteA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="ToolWindowServices.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="service.view.auto.scroll.from.source" value="true" />
+    <property name="service.view.auto.scroll.to.source" value="true" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\statics\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\statics\img" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hzero.demo.ssm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hzero.demo.ssmwithredis.springmvc.controller" />
+      <recent name="com.hzero.demo.ssmwithredis.springmvc.cache" />
+      <recent name="com.hzero.demo.ssmwithredis.redis.subscribe" />
+      <recent name="com.hzero.demo.ssmwithredis.redis.utils" />
+      <recent name="com.hzero.demo.ssmwithredis.redis.task" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\views\statics\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\SQL" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\statics\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\statics\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.27">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzero.demo.ssmwithredis.App" />
+      <module name="SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzero.demo.ssmwithredis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CronTriggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzero.demo.ssmwithredis.springmvc.job.CronTriggerTest" />
+      <module name="SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzero.demo.ssmwithredis.springmvc.job.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NormalTriggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzero.demo.ssmwithredis.springmvc.job.NormalTriggerTest" />
+      <module name="SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzero.demo.ssmwithredis.springmvc.job.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSMWithRedis:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSM" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSM_Article" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53544" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSM:war exploded" />
+          <artifact name="SSMWithRedis:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.NormalTriggerTest" />
+      <item itemvalue="Application.CronTriggerTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CronTriggerTest" />
+        <item itemvalue="Application.NormalTriggerTest" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.13833076" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73b2537b-0d3b-4b41-b767-cc8e19ada644" name="Default Changelist" comment="" />
+      <created>1574389884737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574389884737</updated>
+      <workItem from="1574389889222" duration="5143000" />
+      <workItem from="1574395059618" duration="3122000" />
+      <workItem from="1574400971733" duration="141000" />
+      <workItem from="1574401114941" duration="839000" />
+      <workItem from="1574646263611" duration="71000" />
+      <workItem from="1574675549320" duration="611000" />
+      <workItem from="1574732433455" duration="586000" />
+      <workItem from="1574912038882" duration="17875000" />
+      <workItem from="1574937773250" duration="2027000" />
+      <workItem from="1574939845141" duration="1451000" />
+      <workItem from="1574989989079" duration="20457000" />
+      <workItem from="1575249532108" duration="208000" />
+      <workItem from="1575253642766" duration="18317000" />
+      <workItem from="1575340010108" duration="19193000" />
+      <workItem from="1575370105161" duration="3797000" />
+      <workItem from="1575374933818" duration="2861000" />
+      <workItem from="1575423881509" duration="304000" />
+      <workItem from="1575424471408" duration="106000" />
+      <workItem from="1575424598789" duration="10000" />
+      <workItem from="1575424646444" duration="130000" />
+      <workItem from="1575425207284" duration="108000" />
+      <workItem from="1575425327765" duration="18860000" />
+      <workItem from="1575455956522" duration="10388000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create project&#10;By Aesop&#10;2019.11.22">
+      <created>1574401316963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574401316963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create project&#10;By Aesop&#10;2019.11.28">
+      <created>1574940416542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574940416542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adjust the project hierarchy (code and resource files) and optimize the logic of some code.&#10;By Aesop&#10;2019.11.29">
+      <created>1575017774987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575017774987</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1、Add static resources supporting;&#10;2、Add beautiful front pages:index &amp; login;&#10;3、Add result.jsp page and related logic code.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.03">
+      <created>1575377502052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575377502052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Create project&#10;By Aesop&#10;2019.11.22" />
+    <MESSAGE value="Create project&#10;By Aesop&#10;2019.11.28" />
+    <MESSAGE value="Adjust the project hierarchy (code and resource files) and optimize the logic of some code.&#10;By Aesop&#10;2019.11.29" />
+    <MESSAGE value="1、Add static resources supporting;&#10;2、Add beautiful front pages:index &amp; login;&#10;3、Add result.jsp page and related logic code.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.03" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、Add static resources supporting;&#10;2、Add beautiful front pages:index &amp; login;&#10;3、Add result.jsp page and related logic code.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.03" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575425343180">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1575425343180" />
+    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1575452515848">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1575452515848" />
+    <state x="508" y="266" width="373" height="205" key="Github.CreateGistDialog" timestamp="1575448542623">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="508" y="266" width="373" height="205" key="Github.CreateGistDialog/0.0.1366.738@0.0.1366.738" timestamp="1575448542623" />
+    <state width="1323" height="293" key="GridCell.Tab.0.bottom" timestamp="1575466438654">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="293" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575466438654" />
+    <state width="1323" height="293" key="GridCell.Tab.0.center" timestamp="1575466438654">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="293" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1575466438654" />
+    <state width="1323" height="293" key="GridCell.Tab.0.left" timestamp="1575466438653">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="293" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1575466438653" />
+    <state width="1323" height="293" key="GridCell.Tab.0.right" timestamp="1575466438654">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="293" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1575466438654" />
+    <state width="1323" height="340" key="GridCell.Tab.1.bottom" timestamp="1575466395584">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
+    <state width="1323" height="340" key="GridCell.Tab.1.center" timestamp="1575466395583">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1575466395583" />
+    <state width="1323" height="340" key="GridCell.Tab.1.left" timestamp="1575466395583">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1575466395583" />
+    <state width="1323" height="340" key="GridCell.Tab.1.right" timestamp="1575466395584">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
+    <state width="1323" height="340" key="GridCell.Tab.2.bottom" timestamp="1575466395584">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
+    <state width="1323" height="340" key="GridCell.Tab.2.center" timestamp="1575466395584">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
+    <state width="1323" height="340" key="GridCell.Tab.2.left" timestamp="1575466395584">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
+    <state width="1323" height="340" key="GridCell.Tab.2.right" timestamp="1575466395584">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="340" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
+    <state width="1323" height="269" key="GridCell.Tab.3.bottom" timestamp="1575455870932">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.3.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575455870932" />
+    <state width="1323" height="269" key="GridCell.Tab.3.center" timestamp="1575455870932">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.3.center/0.0.1366.738@0.0.1366.738" timestamp="1575455870932" />
+    <state width="1323" height="269" key="GridCell.Tab.3.left" timestamp="1575455870932">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.3.left/0.0.1366.738@0.0.1366.738" timestamp="1575455870932" />
+    <state width="1323" height="269" key="GridCell.Tab.3.right" timestamp="1575455870932">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1575455870932" />
+    <state x="253" y="16" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1575425497066">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="253" y="16" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1366.738@0.0.1366.738" timestamp="1575425497066" />
+  </component>
+</project>

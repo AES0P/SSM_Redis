@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<table border="1" cellpadding="0" cellspacing="0" id="table">
+<table border="1" cellpadding="0" cellspacing="0" id="table" name="table" align="center">
     <tr>
         <td colspan="2" align="center">注册</td>
     </tr>
@@ -61,7 +61,12 @@
 </table>
 <br/><br/><br/><br/>
 <div class="">
-    <table border="1" cellspacing="0" cellpadding="0" id="listTable">
+    <table border="1" cellspacing="0" cellpadding="0" id="listTable" align="center">
+        <tr>
+            <td colspan="7" align="center">
+                <input type="button" value="刷新" onclick="refresh();"/>
+            </td>
+        </tr>
         <tr>
             <td>选中</td>
             <td>用户名</td>
@@ -80,18 +85,19 @@
                 <input type="button" value="选中删除" onclick="delRow();"/>
             </td>
         </tr>
-        <tr>
-            <td><input type="checkbox" name="item"/></td>
-            <td>007</td>
-            <td>123456</td>
-            <td>super</td>
-            <td>爱国</td>
-            <td>男</td>
-            <td>
-                <input type="button" value="删除" onclick="del(this);"/>
-                <input type="button" name="update" value="修改" onclick="modify(this)"/>
-            </td>
-        </tr>
+        <%--        初始数据--%>
+        <%--        <tr>--%>
+        <%--            <td><input type="checkbox" name="item"/></td>--%>
+        <%--            <td>007</td>--%>
+        <%--            <td>123456</td>--%>
+        <%--            <td>super</td>--%>
+        <%--            <td>爱国</td>--%>
+        <%--            <td>男</td>--%>
+        <%--            <td>--%>
+        <%--                <input type="button" value="删除" onclick="del(this);"/>--%>
+        <%--                <input type="button" name="update" value="修改" onclick="modify(this)"/>--%>
+        <%--            </td>--%>
+        <%--        </tr>--%>
     </table>
 </div>
 
@@ -99,7 +105,8 @@
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
 <script src="https://cdn.bootcss.com/jquery-validate/1.19.0/jquery.validate.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-<script src="${pageContext.request.contextPath}/static/js/result.js"></script>
+<!--注意路径名前边有 ‘../’ -->
+<script src="../statics/js/result.js"></script>
 
 </body>
 

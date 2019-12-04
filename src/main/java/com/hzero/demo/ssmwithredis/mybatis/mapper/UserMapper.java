@@ -20,6 +20,9 @@ public interface UserMapper {
     @Delete("delete from ssm_user WHERE id = #{id}")
     int deleteUserById(@Param("id") int id);
 
+    @Delete("delete from ssm_user WHERE name = #{name}")
+    int deleteUserByName(@Param("name") String name);
+
     @Update("update ssm_user set " +
             "name=#{user.name}, password=#{user.password}, sexy=#{user.sexy} , role=#{user.role}, comments=#{user.comments}" +
             "where id=#{user.id}")

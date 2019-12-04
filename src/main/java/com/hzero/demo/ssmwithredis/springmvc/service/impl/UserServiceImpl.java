@@ -5,6 +5,7 @@ import com.hzero.demo.ssmwithredis.springmvc.dao.impl.UserDaoImpl;
 import com.hzero.demo.ssmwithredis.springmvc.pojo.User;
 import com.hzero.demo.ssmwithredis.springmvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
@@ -25,9 +26,16 @@ public class UserServiceImpl implements UserService {
         return userDao.insertUser(user);
     }
 
+    @CacheEvict(value = "cache1")
     @Override
     public int deleteUserById(int id) {
         return userDao.deleteUserById(id);
+    }
+
+    @CacheEvict(value = "cache1")
+    @Override
+    public int deleteUserByName(String name) {
+        return userDao.deleteUserByName(name);
     }
 
     @Override
@@ -35,6 +43,7 @@ public class UserServiceImpl implements UserService {
         return userDao.updateUser(user);
     }
 
+    @Cacheable(value = "cache1")
     @Override
     public User findUserById(int id) {
         return userDao.findUserById(id);
@@ -50,6 +59,5 @@ public class UserServiceImpl implements UserService {
     public List<User> findAllUser() {
         return userDao.findAllUser();
     }
-
 
 }

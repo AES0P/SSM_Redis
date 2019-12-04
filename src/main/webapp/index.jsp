@@ -10,18 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/bootstrap.min.css">
     <!-- Font Awesome & Pixeden Icon Stroke icon font-->
-    <link rel="stylesheet" href="static/css/font-awesome.min.css">
-    <link rel="stylesheet" href="static/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/pe-icon-7-stroke.css">
     <!-- Google fonts - Roboto Condensed & Roboto-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,400">
     <!-- lightbox-->
-    <link rel="stylesheet" href="static/css/lightbox.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/lightbox.min.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="static/css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="static/css/custom.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/custom.css">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -108,10 +108,10 @@
 </footer>
 
 <!-- Javascript files-->
-<script src="static/js/jquery.min.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
-<script src="static/js/jquery.cookie.js"></script>
-<script src="static/js/lightbox.min.js"></script>
-<script src="static/js/front.js"></script><!-- substitute:livereload -->
+<script src="${pageContext.request.contextPath}/static/js/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/jquery.cookie.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/lightbox.min.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/front.js"></script><!-- substitute:livereload -->
 </body>
 </html>

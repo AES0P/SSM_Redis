@@ -3,8 +3,8 @@ $(function () {
     $(".login").click(function (e) {
 
         // //获取控件值的方法
-        var name = $('#name').val();
-        var pass = $('#pass').val();
+        var name = document.getElementById("name").value;
+        var pass = document.getElementById("pass").value;
 
         if (name === "" || pass === "") {
             alert("Name or password can not be empty!");
@@ -15,7 +15,7 @@ $(function () {
 
             url: "login/loginCheck",
             type: "POST",
-            data: { username: name, password: pass },
+            data: {username: name, password: pass},
             success: function (res) {
 
                 if (res === "OK") {
@@ -44,8 +44,8 @@ $(function () {
 
             },
 
-            error: function () {
-                alert("系统繁忙,请稍后再试!")
+            error: function (xhr, textStatus, errorThrown) {
+                alert("系统繁忙,请稍后再试!\n" + xhr.responseText);
             }
 
         });
@@ -56,36 +56,69 @@ $(function () {
     $(".regist").click(function (e) {
 
         // //获取控件值的方法
-        var name = $('#regname').val();
-        var pass = $('#regpass').val();
-        var repass = $('#reregpass').val();
+        var name = document.getElementById("regname").value;
+        var pass = document.getElementById("regpass").value;
+        var repass = document.getElementById("reregpass").value;
 
         if (name === "" || pass === "" || repass === "") {
             alert("Name or password can not be empty!");
             return;
         }
 
-        if (pass != repass) {
+        if (pass !== repass) {
             alert("Password must be same!");
             return;
         }
 
+        var user = {};
+        user.name = name;
+        user.password = pass;
+        user.role = "normal";
+        user.comments = "";
+        user.sexy = 2;
 
-        //控制成功后打勾
-        var pX = e.pageX,
-            pY = e.pageY,
-            oX = parseInt($(this).offset().left),
-            oY = parseInt($(this).offset().top);
+        $.ajax({
 
-        $(this).append('<span class="click-efect x-' + oX + ' y-' + oY + '" style="margin-left:' + (pX - oX) + 'px;margin-top:' + (pY - oY) + 'px;"></span>')
-        $('.x-' + oX + '.y-' + oY + '').animate({
-            "width": "500px",
-            "height": "500px",
-            "top": "-250px",
-            "left": "-250px",
+            url: "result/addUser",
+            type: "POST",
+            async: false,
+            contentType: "application/json;charset=utf-8",
+            data: JSON.stringify(user),
+            success: function (res) {
 
-        }, 600);
-        $("button", this).addClass('active');
+                if (res === "OK") {
+
+                    alert("注册成功！");
+
+                    //控制成功后打勾
+                    var pX = e.pageX,
+                        pY = e.pageY,
+                        oX = parseInt($(this).offset().left),
+                        oY = parseInt($(this).offset().top);
+
+                    $(this).append('<span class="click-efect x-' + oX + ' y-' + oY + '" style="margin-left:' + (pX - oX) + 'px;margin-top:' + (pY - oY) + 'px;"></span>')
+                    $('.x-' + oX + '.y-' + oY + '').animate({
+                        "width": "500px",
+                        "height": "500px",
+                        "top": "-250px",
+                        "left": "-250px",
+
+                    }, 600);
+                    $("button", this).addClass('active');
+
+                } else {
+                    alert(res);
+                }
+
+            },
+
+            error: function (xhr, textStatus, errorThrown) {
+                alert("系统繁忙,请稍后再试!\n" + xhr.responseText);
+            }
+
+        });
+
+
     })
 
 

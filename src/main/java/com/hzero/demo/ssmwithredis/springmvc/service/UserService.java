@@ -10,6 +10,8 @@ public interface UserService {
 
     int deleteUserById(int id);
 
+    int deleteUserByName(String name);
+
     int updateUser(User user);
 
     User findUserById(int id);
