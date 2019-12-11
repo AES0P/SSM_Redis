@@ -18,7 +18,11 @@
                 </bean>
                 <bean class="com.hzero.demo.ssmwithredis.springmvc.cache.RedisCache">
                     <property name="redisTemplate" ref="redisTemplate"/>
-                    <property name="name" value="cache1"/>
+                    <property name="name" value="userCache"/>
+                </bean>
+                <bean class="com.hzero.demo.ssmwithredis.springmvc.cache.RedisCache">
+                    <property name="redisTemplate" ref="redisTemplate"/>
+                    <property name="name" value="allUsersCache"/>
                 </bean>
             </set>
         </property>

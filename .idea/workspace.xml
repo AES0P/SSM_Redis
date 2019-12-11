@@ -7,19 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73b2537b-0d3b-4b41-b767-cc8e19ada644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SSMWithRedis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/controller/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/controller/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hzero/demo/ssmwithredis/springmvc/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/config/Config-Cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/config/Config-Cache.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +40,8 @@
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="xml" />
+        <option value="Mapper" />
       </list>
     </option>
   </component>
@@ -110,25 +102,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="service.view.auto.scroll.from.source" value="true" />
     <property name="service.view.auto.scroll.to.source" value="true" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\statics\js" />
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static\js" />
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static" />
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\statics\img" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hzero.demo.ssm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\resources" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\views\statics\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\SQL" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\statics\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hzero.demo.ssmwithredis.springmvc.controller" />
@@ -137,12 +129,12 @@
       <recent name="com.hzero.demo.ssmwithredis.redis.utils" />
       <recent name="com.hzero.demo.ssmwithredis.redis.task" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static\js" />
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\views\statics\js" />
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\SQL" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\statics\js" />
-      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\statics\img" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static\js" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\static" />
+      <recent name="D:\hand_h0_excise\H0\project\backend\6.Redis\SSMWithRedis\src\main\webapp\statics\img" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.27">
@@ -331,7 +323,23 @@
       <workItem from="1575424646444" duration="130000" />
       <workItem from="1575425207284" duration="108000" />
       <workItem from="1575425327765" duration="18860000" />
-      <workItem from="1575455956522" duration="10388000" />
+      <workItem from="1575455956522" duration="11034000" />
+      <workItem from="1575509913298" duration="56000" />
+      <workItem from="1575510449898" duration="78000" />
+      <workItem from="1575510600106" duration="269000" />
+      <workItem from="1575515237502" duration="23000" />
+      <workItem from="1575527561900" duration="44000" />
+      <workItem from="1575540781749" duration="402000" />
+      <workItem from="1575541659976" duration="606000" />
+      <workItem from="1575544238518" duration="21000" />
+      <workItem from="1575595147619" duration="320000" />
+      <workItem from="1575602190143" duration="25000" />
+      <workItem from="1575602469163" duration="15000" />
+      <workItem from="1575625513638" duration="372000" />
+      <workItem from="1575854051154" duration="1466000" />
+      <workItem from="1575961576796" duration="1630000" />
+      <workItem from="1575966441612" duration="34000" />
+      <workItem from="1576029984602" duration="2533000" />
     </task>
     <task id="LOCAL-00001" summary="Create project&#10;By Aesop&#10;2019.11.22">
       <created>1574401316963</created>
@@ -361,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575377502052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1、Revised Spring-Redis cache setting in UserServiceImpl.java;&#10;2、Revised login.js &amp; result.js ,add CRUD operation supporting for them;&#10;3、Let this demo more like standard SSM project;&#10;4、Revised redirection problem in js.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.04">
+      <created>1575466838698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575466838698</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,69 +404,78 @@
     <MESSAGE value="Create project&#10;By Aesop&#10;2019.11.28" />
     <MESSAGE value="Adjust the project hierarchy (code and resource files) and optimize the logic of some code.&#10;By Aesop&#10;2019.11.29" />
     <MESSAGE value="1、Add static resources supporting;&#10;2、Add beautiful front pages:index &amp; login;&#10;3、Add result.jsp page and related logic code.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、Add static resources supporting;&#10;2、Add beautiful front pages:index &amp; login;&#10;3、Add result.jsp page and related logic code.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.03" />
+    <MESSAGE value="1、Revised Spring-Redis cache setting in UserServiceImpl.java;&#10;2、Revised login.js &amp; result.js ,add CRUD operation supporting for them;&#10;3、Let this demo more like standard SSM project;&#10;4、Revised redirection problem in js.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、Revised Spring-Redis cache setting in UserServiceImpl.java;&#10;2、Revised login.js &amp; result.js ,add CRUD operation supporting for them;&#10;3、Let this demo more like standard SSM project;&#10;4、Revised redirection problem in js.&#10;                                                                                    By Aesop&#10;                                                                                    2019.12.04" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575425343180">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1575425343180" />
+    <state x="409" y="177" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575541955160">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="409" y="177" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1575541955160" />
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1575452515848">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1575452515848" />
+    <state x="104" y="0" key="CommitChangelistDialog2" timestamp="1575466836097">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="104" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1575466836097" />
     <state x="508" y="266" width="373" height="205" key="Github.CreateGistDialog" timestamp="1575448542623">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="508" y="266" width="373" height="205" key="Github.CreateGistDialog/0.0.1366.738@0.0.1366.738" timestamp="1575448542623" />
-    <state width="1323" height="293" key="GridCell.Tab.0.bottom" timestamp="1575466438654">
+    <state width="1323" height="293" key="GridCell.Tab.0.bottom" timestamp="1576032700584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="293" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575466438654" />
-    <state width="1323" height="293" key="GridCell.Tab.0.center" timestamp="1575466438654">
+    <state width="1323" height="293" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1576032700584" />
+    <state width="1323" height="293" key="GridCell.Tab.0.center" timestamp="1576032700584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="293" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1575466438654" />
-    <state width="1323" height="293" key="GridCell.Tab.0.left" timestamp="1575466438653">
+    <state width="1323" height="293" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1576032700584" />
+    <state width="1323" height="293" key="GridCell.Tab.0.left" timestamp="1576032700584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="293" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1575466438653" />
-    <state width="1323" height="293" key="GridCell.Tab.0.right" timestamp="1575466438654">
+    <state width="1323" height="293" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1576032700584" />
+    <state width="1323" height="293" key="GridCell.Tab.0.right" timestamp="1576032700584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="293" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1575466438654" />
-    <state width="1323" height="340" key="GridCell.Tab.1.bottom" timestamp="1575466395584">
+    <state width="1323" height="293" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1576032700584" />
+    <state width="1323" height="340" key="GridCell.Tab.1.bottom" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
-    <state width="1323" height="340" key="GridCell.Tab.1.center" timestamp="1575466395583">
+    <state width="1323" height="340" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
+    <state width="1323" height="340" key="GridCell.Tab.1.center" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1575466395583" />
-    <state width="1323" height="340" key="GridCell.Tab.1.left" timestamp="1575466395583">
+    <state width="1323" height="340" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
+    <state width="1323" height="340" key="GridCell.Tab.1.left" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1575466395583" />
-    <state width="1323" height="340" key="GridCell.Tab.1.right" timestamp="1575466395584">
+    <state width="1323" height="340" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
+    <state width="1323" height="340" key="GridCell.Tab.1.right" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
-    <state width="1323" height="340" key="GridCell.Tab.2.bottom" timestamp="1575466395584">
+    <state width="1323" height="340" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
+    <state width="1323" height="340" key="GridCell.Tab.2.bottom" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
-    <state width="1323" height="340" key="GridCell.Tab.2.center" timestamp="1575466395584">
+    <state width="1323" height="340" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
+    <state width="1323" height="340" key="GridCell.Tab.2.center" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
-    <state width="1323" height="340" key="GridCell.Tab.2.left" timestamp="1575466395584">
+    <state width="1323" height="340" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
+    <state width="1323" height="340" key="GridCell.Tab.2.left" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
-    <state width="1323" height="340" key="GridCell.Tab.2.right" timestamp="1575466395584">
+    <state width="1323" height="340" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
+    <state width="1323" height="340" key="GridCell.Tab.2.right" timestamp="1576032685311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="340" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1575466395584" />
+    <state width="1323" height="340" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1576032685311" />
     <state width="1323" height="269" key="GridCell.Tab.3.bottom" timestamp="1575455870932">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -468,9 +492,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="269" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1575455870932" />
+    <state x="186" y="13" key="SettingsEditor" timestamp="1575625645329">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1575625645329" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1575466844577">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1575466844577" />
     <state x="253" y="16" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1575425497066">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="253" y="16" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1366.738@0.0.1366.738" timestamp="1575425497066" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1575625818828">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1575625818828" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1576031671834">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1576031671834" />
   </component>
 </project>
